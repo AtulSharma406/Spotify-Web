@@ -1,0 +1,432 @@
+
+ body{
+      background:black;
+ }.container{
+      
+  background:black;
+
+}
+
+
+.container1{
+      margin-top:5px;
+ display:flex;
+  height:3000px;
+  width:100vw;
+  background:black;
+
+}
+.upper-portion{
+     margin-top:5px;
+     height:60px;
+      width:100%;
+      background:black;   
+     }
+.dot{
+     margin-left:3px;
+     color:white;
+}
+.right{
+    color:white;
+}
+.left{
+    color:white;
+}
+.icon{
+     display: flex;
+      gap:10px;
+}
+.home{
+     height:40px;
+      width:40px;
+       text-align:center;
+     margin-left:300px;
+      align-items: center;
+     background: rgb(59, 59, 59);
+     border-radius:50%;
+
+}
+.home i{
+     margin-top:8px;
+      color:white;
+   
+}
+.searchbar{
+  height:40px;
+     width:450px;
+     background:rgb(59, 59, 59);
+      border:1px solid rgb(59, 59, 59);
+     border-radius:20px;
+     
+
+}
+.searchbar i{
+     height:30px;
+    color:white;
+     margin-left:3px;
+}
+ .searchbar input{
+     width:90%;
+     border:9;
+      outline:0;
+      background:transparent;
+      height:40px;
+      border:0;
+       outline:0;
+       
+         
+ }
+ ::placeholder{
+     font-size:17px;
+ }
+ .explore{
+     margin-top:5px;
+    margin-left:100px;
+    background:white;
+     height:30px;
+      width:170px;
+       border:1px solid white;
+        border-radius:27px;
+      
+ }
+  .notifications{
+      height:60px;
+     color:white;
+      height:100px;
+       margin-top:10px;
+        margin-left:90px;
+  }
+  .user{
+     height:60px;
+    color:white;
+     height:100px;
+      margin-top:10px;
+       margin-left:90px;
+ }
+  .left-portion{
+      margin-left:20px;
+      height:610px;
+      width:100px;
+      border: 1px solid rgb(59, 59, 59);
+      background:rgb(15, 14, 14);
+       border-radius:10px;
+  }
+   .left-portion i{
+      margin-top:25px;
+       margin-left:30px;
+     color:white;
+      height:100px;
+   }
+   .library{
+      height:70px;
+   }
+    .left-portion img{
+      margin-left:20px;
+     height:40px;
+      width:40px;
+    }
+     .middle-portion{
+           margin-left:35px;
+           height:2550px;
+            width:1000px;
+             background:rgb(15, 14, 14);
+
+
+     }
+      .right-portion{
+           margin-left:5px;
+           height:610px;
+            width:300px;
+            border: 1px solid rgb(59, 59, 59);
+            background:rgb(15, 14, 14);
+      }
+       .btns{
+           margin-left:10px;
+           margin-top:15px;
+           display:flex;
+            gap:8px;
+            justify-content:flex-start;
+
+       } 
+     .song{
+           color:white;
+          height:30px;
+          width:90px;
+           background:rgb(59, 59, 59);
+            border:0;
+            border-radius:15px;
+     }
+     .profile{
+          color:white;
+         height:30px;
+         width:90px;
+          background:rgb(59, 59, 59);
+           border:0;
+           border-radius:15px;
+    }
+    .artists{
+     color:white;
+    height:30px;
+    width:90px;
+     background:rgb(59, 59, 59);
+      border:0;
+      border-radius:15px;
+}
+.podcast{
+     color:white;
+    height:30px;
+    width:130px;
+     background:rgb(59, 59, 59);
+      border:0;
+      border-radius:15px;
+}
+.playlists{
+     color:white;
+    height:30px;
+    width:90px;
+     background:rgb(59, 59, 59);
+      border:0;
+      border-radius:15px;
+}
+.album{
+     color:white;
+    height:30px;
+    width:90px;
+     background:rgb(59, 59, 59);
+      border:0;
+      border-radius:15px;
+}
+       .all{
+          height:30px;
+          width:90px;
+            border:0;
+            border-radius:15px;
+        color:rgb(59, 59, 59);
+            background:white;
+       
+       }
+
+        .singer{
+           margin-top:15px;
+           display:grid;
+            grid-template-columns: repeat(auto-fit,minmax(200px,1fr));
+            grid-column-gap:10px;
+             grid-row-gap: 20px;
+
+
+        }
+         .singer-details{
+           margin-top:10px;
+
+           margin-left:10px;
+           height:50px;
+           width:200px;
+           display: flex;
+            gap:5px;
+            background:rgb(59, 59, 59);
+             border-radius:15px;
+         }
+         .singer-details img{
+          margin-top:5px;
+          margin-left:5px;
+           height:40px;
+         }
+         .singer-details h3{
+           color:white
+         }
+          .class{
+                margin-left:20px;
+                margin-top:30px;
+                 color:white;
+          }
+
+          .about-song{
+               margin-top:15px;
+               display:grid;
+                grid-template-columns: repeat(auto-fit,minmax(200px,1fr));
+                grid-column-gap:10px;
+                 grid-row-gap: 10px;
+                 
+          }
+           .hot-hits{
+                height:150px;
+                 margin-left:15px;
+                  border-radius:10px;
+           }
+            .details h3{
+                margin-top:3px;
+                margin-left:5px;
+                font-size:15px;
+                color:white;
+            }
+            .details h5{
+               margin-top:0px;
+               margin-left:5px;
+               font-size:15px;
+               color:white;
+           }
+           .hindi-hits{
+               height:150px;
+                width:150px;
+                margin-left:15px;
+                 border-radius:10px;
+          }
+          .javed-ali{
+               height:150px;
+                width:100px;
+                margin-left:15px;
+                 border-radius:50%;
+          }
+           .javed-ali h3{
+                margin-top:5px;
+                 margin-left: 20px;
+           }
+           .right-portion{
+               height:1000px;
+                width:350px;
+                 border-radius:10px;
+                 margin-left:8px;
+                  margin-right:5px;
+
+
+           }
+          
+            .lower-portion{
+          display:flex;
+  position:fixed;
+ height:100px;
+ width:100vw;
+ margin-top:-2380px;
+background-color:black;
+            }
+             .bottom{
+               display:flex;
+               justify-content:center;
+               align-items:center;
+                flex-direction: column;
+               position:sticky;
+
+             }
+
+            .lower-portion img{
+             
+               margin-left:5px;
+               height:80px;
+                width:70px;
+                 margin-bottom:5px;
+            }
+             .icons{
+              position:sticky;
+                display:flex;
+                margin-left:500px;
+               margin-top:10px;
+               gap:13px;
+             
+             }
+             #like{
+               margin-top:5px;
+               height:100px;
+                width:100px;
+                 filter:invert(100%);
+                  text-align:center;
+             }
+   .backward{
+      margin-top:10px;
+      height:45px;
+       color:white;
+
+   }
+   .forward{
+      margin-top:10px;
+     height:50px;
+      color:rgb(238, 233, 233);
+      
+  }
+               .play{
+                    text-align: center;
+                     align-items: center;
+                     background:white;
+                     color:black;
+                      height:40px;
+                  width:40px;
+                  border-radius:50%;   
+               }
+                .play i{
+                     margin-top:10px;
+                }
+                .icons img{
+                     height:25px;
+                      width:25px;
+                       color:white;
+                        background:white;
+                }
+            
+                .lower-portion input{
+                    
+                 margin-left:350px;
+                  margin-top:-20px;
+                     width:30vw;
+                     background:blue;
+                 }
+                    .moreicons{
+                         position:sticky;
+                     display:flex;
+                       justify-content: flex-end; 
+                        float:inline-end;
+                        margin-left:300px;
+                       gap:10px;  
+                    }
+                     .moreicons img{
+                           height:20px;
+                           width:20px;
+                     }
+                      .playicon{
+                           filter: invert(100%);
+                          
+                      }
+                       .bottom input{
+                          display:none;
+                       }
+                       #img1{
+                          display:none;
+                           margin-left:7px;
+                            margin-top:10px;
+                          height:270px;
+                           width:270px;
+                            border-radius:18px;
+                       }
+                       #h1{
+                         font-size:23px;
+                          color:white;
+                          margin-left:4px;
+                           margin-top:10px;
+                       }
+                       .right-portion i{
+                          margin-top:5px;
+                           margin-right:5px;
+                          color:white;
+                           height:20px;
+                          float:right;
+                       }
+               
+             .icons i{
+               cursor:pointer;
+             }
+             #img2{
+                margin-left:5px;
+                 margin-top:7px;
+               height:300px;
+               width:300px;
+               border-radius:10px;
+                display: none;
+
+            }
+             #h4{
+                font-size:15px;
+                 color:white;
+                  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+                   display: none;
+             }
+             #imagge{
+                display: none;
+             }
