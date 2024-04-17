@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Spotify</title>
+</head>
+<body>
+    <div class="container">
+    <div class="upper-portion">
+    <div class="icon">
+        <i class="fa-solid fa-ellipsis dot "></i>
+        <i class="fa-solid fa-angle-right right"></i>
+        <i class="fa-solid fa-angle-left left"></i>
+        
+
+        <div class="home">
+            <i><i class="fa-solid fa-house"></i></i>
+        </div>
+        <form id="form">
+            <div class="searchbar" id="searchbar">
+                <i class="fa-solid fa-magnifying-glass"></i>
+                 <input type="search" placeholder="What do you want to play ?" id="searchInput"  onkeyup="document.getElementById('searchbar').style.background=this.value">
+                 <ul id="searchResults"></ul>
+               </div>
+        </form>
+     
+       
+
+         <button class="explore"> Explore Premium</button>
+         <i><i class="fa-regular fa-bell notifications"></i></i>
+         <i class="fa-regular fa-user user"></i>
+
+    </div>
+    </div>
+    </div>
+    <div class="container1">
+        <div class="left-portion">
+            <i class="fa-solid fa-book library"></i> <br>
+            <img src="images/liked images.png" alt="">
+        </div>
+    
+         <div class="middle-portion" id="middle-portion">
+            <div class="img-bar">
+
+            </div>
+            <div class="btns">
+                <button class="all">All</button>
+                <button class="playlists">Playlists</button>
+                <button class="song">Songs</button>
+                <button class="album">Album</button>
+                <button class="artists">Artists</button>
+                <button class="podcast">Podcast and shows</button>
+                <button class="profile">Profile</button>
+            </div>
+            <div class="singer">
+                <div class="singer-profile">
+                    <div class="singer-details">
+                     <a href="arijit.html">
+                  <img src="images/arijit.webp" ></a>
+                        <h3> Arjit Singh</h3>
+                    </div>
+                </div>
+                <div class="singer-profile">
+                    <div class="singer-details">
+                        <a href="shreyaghoshal.html">
+                            <img src="images/shreya ghoshal.webp" >
+                        </a>
+                        <h3>Shreya Ghoshal</h3>
+                    </div>
+                </div>
+                <div class="singer-profile">
+                    <div class="singer-details">
+                        <a href="yoyo.html"> <img src="yo yo images/yo yo.webp" ></a>
+                        
+                        <h3>Honeysingh</h3>
+                    </div>
+                    </div>
+                    <div class="singer-profile">
+                        <div class="singer-details">
+                            
+                             <a href="atif aslam.html"><img src="images/atif aslam.webp" ></a>
+                            <h3> Atif Aslam</h3>
+                        </div>
+                    </div>
+               
+                <div class="singer-profile">
+                    <div class="singer-details">
+                        <img src="images/neha kakkar.webp" >
+                        <h3> Neha Kakkar</h3>
+                    </div>
+                </div>
+                <div class="singer-profile">
+                    <div class="singer-details">
+                       <a href="karanaujla.html"> <img src="images/aujla.webp" ></a>
+                        <h3> Karan Aujla</h3>
+                    </div>
+                </div>
+                <div class="singer-profile">
+                    <div class="singer-details">
+                        <img src="images/badshah.webp" >
+                        <h3>Badshah</h3>
+                    </div>
+                </div>
+                 
+                 <div class="singer-profile">
+                    <div class="singer-details">
+                        <a href="sidhumoosewala.html"><img src="images/sidhumosse wala.webp" ></a>
+                        <h3> Sidhu moose wala</h3>
+                    </div>
+                </div>
+               
+                </div>
+
+                <h2 class="class">Jump back in</h3>
+                    <div class="about-song">
+                        <div class="details">
+                            <img src="images/hot hits.webp" class="hot-hits">
+                            <h3>Hots hit Punjabi</h3>
+                             <h5>Enjoy the punjabi song <br> with Ammy virk</h5>
+                    
+                        </div>
+                        <div class="details">
+                            <img src="images/kk.jpeg" class="javed-ali">
+                            <h3>KK</h3>
+                             <h5>Artists</h5>
+                    
+                        </div>
+                        <div class="details">
+                            <img src="images/hindi song.webp" class="hindi-hits">
+                         <h3>Hindi song playlist</h3>
+                          <h5>Enjoy the hindi song <br>With Arijit SIngh and Shreya Ghoshal</h5>
+                    
+                        </div>
+                        <div class="details">
+                            <img src="images/javed ali.webp" class="javed-ali">
+                           <h3>Javed Ali</h3>
+                            <h5>Artists</h5>
+                    
+                        </div>
+                      
+                  
+                      </div>  
+            </div>
+
+      
+
+       <div class="right-portion" id="right-portion">
+        <i class="fa-solid fa-xmark" id="cross"></i>
+        </div>
+        
+    
+    </div>
+    <div class="lower-portion">
+   <img src="images/tum hi ho.jpeg" id="imagge" >
+   <div class="icons">
+    <i class="fa-solid fa-backward-step backward"></i>
+    <div onclick="playPause()" class="play">
+        <i class="fa-solid fa-play" id="ctrlicon"></i>
+    </div>
+   
+    <i class="fa-solid fa-forward-step forward"></i>
+    <i class="fa-regular fa-heart" id="like"></i>
+   </div>
+   <audio  id="song">
+    <source src="Arijit Singh Songs/_Tum Hi Ho_ Aashiqui 2 Full Song With Lyrics _ Aditya Roy Kapur_ Shraddha Kapoor(MP3_160K).mp3">
+     </audio>
+    
+    
+
+      <div class="moreicons">
+        <img src="images/playicon.png" class="playicon">
+        <img src="images/song album.png"class="playicon"  >
+        <img src="images/queue.png"class="playicon">
+        <img src="images/connnected.webp" >
+        <img src="images/sound.png"class="playicon" >
+      </div>
+    </div>
+  
+ 
+ <script src="script.js"></script>
+</body>
+</html>
